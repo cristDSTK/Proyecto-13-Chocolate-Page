@@ -1,68 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Delicio | Inicio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="resposivo.css">
-</head>
-<body>
-    <header class="header container">
-        <section class="header__links--back">
-            <section class="header__links">
-                <a>Message For the Page</a>
-                <nav class="header__links--nav">
-                    <p>Register</p>
-                    <p>Login</p>
-                    <p>My Account</p>
-                </nav>
-            </section>
-        </section>
+    <link rel="stylesheet" href="./style/resposivo.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <section class="header container">
+      <div class="header__links--bg">
+        <div class="header__links">
+          <p class="header__links--location">
+            <i class="fa-solid fa-location-dot"></i>
+            location
+          </p>
+          <nav class="header__links--nav">
+            <a>
+              <i class="fa-solid fa-pen-to-square"></i>
+              <p>Register</p>
+            </a>
+            <a>
+              <i class="fa-solid fa-user"></i>
+              <p>My Account</p>
+            </a>
+            <a>
+              <i class="fa-solid fa-right-to-bracket"></i>
+              <p>Login</p>
+            </a>
+          </nav>
+        </div>
+      </div>
 
-        <section class="header__nav--back">
-            <section class="header__nav">
-                <a class="header__nav--a">Delicio</a>
-                <nav class="header__nav--nav">
-                    <a class="header__nav--nav__links">HOME</a>
-                    <a class="header__nav--nav__links">SHOP</a>
-                    <a class="header__nav--nav__links">BAKERY</a>
-                    <a class="header__nav--nav__links">ABOUT</a>
-                    <a class="header__nav--nav__links">PURCHASE</a>
-                    <a class="header__nav--nav__links">CONTACT</a>
-                </nav>
-            </section>
-        </section>  
+      <nav class="header__nav">
+        <a class="header__nav__logo">
+          <img src="./images/logo.png" alt="logo" />
+          <p>sweetshop</p>
+        </a>
+        <ul class="header__nav--ul">
+          <li>
+            <a class="header__nav__a">HOME</a>
+          </li>
+          <li>
+            <a class="header__nav__a">SHOP</a>
+          </li>
+          <li>
+            <a class="header__nav__a">BAKERY</a>
+          </li>
+          <li>
+            <a class="header__nav__a">ABOUT</a>
+          </li>
+          <li>
+            <a class="header__nav__a">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
 
-        <section class="header__title">
-            <div class="header__title--cart">
-                <button class="header__title--btn btn__card">CART ITEMS</button>
-            </div>
-            <div class="header__title--div">
-                <h1>We are Delicio <br> Ideal every Chocoholic</h1>
-                <button class="header__title--btn">SEE OUR OFFER</button>
-            </div>
-        </section>
-    </header>
+      <header class="header__title">
+        <h1>We are Delicio Ideal Sweet</h1>
+        <button class="header__title--btn">
+          <i class="fa-solid fa-ice-cream"></i>
+          <p>View Menu</p>
+        </button>
+      </header>
+    </section>
 
     <main class="main container">
-
       <section class="box">
-
         <div class="box__links">
           <a href="#" class="box__links--a">
             <i class="fa-regular fa-circle-user"></i>
-            <p>PERSONALIZED SHOP</p>
+            <p>user shop</p>
           </a>
 
           <a href="#" class="box__links--a">
             <i class="fa-solid fa-bell"></i>
-            <p>EMAIL NOTIFICATIONS</p>
+            <p>notifications</p>
           </a>
 
           <a href="#" class="box__links--a">
             <i class="fa-solid fa-earth-europe"></i>
-            <p>WORLDWIDE SHIPPING</p>
+            <p>worldwide</p>
+          </a>
+          <a href="#" class="box__links--a">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>my car</p>
           </a>
         </div>
 
@@ -74,118 +96,165 @@
             </div>
           </div>
           <div class="box__chocolate--div bcdt__img2">
-            <div class="box__chocolate--div__text ">
-              <p>Tasty Chocolate</p>
+            <div class="box__chocolate--div__text">
+              <p>Delicious Cake</p>
               <b>$ 23.00</b>
             </div>
           </div>
           <div class="box__chocolate--div bcdt__img3">
-            <div class="box__chocolate--div__text ">
-              <p>Chocolate Cake</p>
+            <div class="box__chocolate--div__text">
+              <p>Delicious Cake</p>
               <b>$ 23.00</b>
             </div>
           </div>
           <div class="box__chocolate--div bcdt__img4">
-            <div class="box__chocolate--div__text ">
-              <p>Suggar Cake</p>
-              <b>$ 23.00</b>
-            </div>
-          </div>
-        </div>
-
-        <div class="box__logo">
-          <i class="fa-solid fa-square-caret-left"></i>
-          <a class="box__logo--a">Milka</a>
-          <a class="box__logo--a">Chupa<br>Chupa</a>
-          <a class="box__logo--a">Sugar</a>
-          <a class="box__logo--a">G</a>
-          <a class="box__logo--a">Chupa Milk</a>
-          <a class="box__logo--a">Golden</a>
-          <i class="fa-solid fa-square-caret-right"></i>
-        </div>
-
-        <div class="box__chocolate">
-          <div class="box__chocolate--div bcdt__img5">
-            <div class="box__chocolate--div__text ">
+            <div class="box__chocolate--div__text">
               <p>Delicious Cake</p>
               <b>$ 23.00</b>
             </div>
           </div>
-          <div class="box__chocolate--div bcdt__img6">
-            <div class="box__chocolate--div__text ">
+          <div class="box__chocolate--div bcdt__img1">
+            <div class="box__chocolate--div__text">
               <p>Delicious Cake</p>
               <b>$ 23.00</b>
             </div>
           </div>
-          <div class="box__chocolate--div bcdt__img7">
-            <div class="box__chocolate--div__text ">
+          <div class="box__chocolate--div bcdt__img2">
+            <div class="box__chocolate--div__text">
               <p>Delicious Cake</p>
               <b>$ 23.00</b>
             </div>
           </div>
-          <div class="box__chocolate--div bcdt__img8">
+          <div class="box__chocolate--div bcdt__img3">
+            <div class="box__chocolate--div__text">
+              <p>Delicious Cake</p>
+              <b>$ 23.00</b>
+            </div>
+          </div>
+          <div class="box__chocolate--div bcdt__img4">
+            <div class="box__chocolate--div__text">
+              <p>Delicious Cake</p>
+              <b>$ 23.00</b>
+            </div>
+          </div>
+          <div class="box__chocolate--div bcdt__img1">
+            <div class="box__chocolate--div__text">
+              <p>Delicious Cake</p>
+              <b>$ 23.00</b>
+            </div>
+          </div>
+          <div class="box__chocolate--div bcdt__img2">
+            <div class="box__chocolate--div__text">
+              <p>Delicious Cake</p>
+              <b>$ 23.00</b>
+            </div>
+          </div>
+          <div class="box__chocolate--div bcdt__img3">
+            <div class="box__chocolate--div__text">
+              <p>Delicious Cake</p>
+              <b>$ 23.00</b>
+            </div>
+          </div>
+          <div class="box__chocolate--div bcdt__img4">
+            <div class="box__chocolate--div__text">
+              <p>Delicious Cake</p>
+              <b>$ 23.00</b>
+            </div>
+          </div>
+          <div class="box__chocolate--div bcdt__img1">
+            <div class="box__chocolate--div__text">
+              <p>Delicious Cake</p>
+              <b>$ 23.00</b>
+            </div>
+          </div>
+          <div class="box__chocolate--div bcdt__img2">
+            <div class="box__chocolate--div__text">
+              <p>Delicious Cake</p>
+              <b>$ 23.00</b>
+            </div>
+          </div>
+          <div class="box__chocolate--div bcdt__img3">
+            <div class="box__chocolate--div__text">
+              <p>Delicious Cake</p>
+              <b>$ 23.00</b>
+            </div>
+          </div>
+          <div class="box__chocolate--div bcdt__img4">
             <div class="box__chocolate--div__text">
               <p>Delicious Cake</p>
               <b>$ 23.00</b>
             </div>
           </div>
         </div>
-
+        <div class="box__logo">
+          <button>
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <a class="box__logo--a">Cake</a>
+          <a class="box__logo--a">Chocolate</a>
+          <a class="box__logo--a">ice cream</a>
+          <a class="box__logo--a">candy lollipops</a>
+          <a class="box__logo--a">cookies</a>
+          <a class="box__logo--a">donuts</a>
+          <a class="box__logo--a">candies</a>
+          <button>
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
       </section>
 
       <section class="info">
         <div class="info__img">
-          <h2>WIN OUR SPECIAL PRIZE ON OUR FACEBOK PAGE</h2>
-        </div>
-
-        <div class="info__text">
-          <div class="info__text--div--delicio">
-            <h3>Delicio</h3>
-            <a>Delicio Webshop, LLC</a>
-            <p>South Washington Street 828, Washington, USA
-              Phone 0128 1826 1836
-            </p>
-          </div>
-
-          <div class="info__text--div--account">
-            <h4>MY ACOUNT</h4>
-            <ul>
-              <li><a>Cart</a> <p>Costumers Assosiation</p></li>
-              <li><a>Checkout</a> <p>Delivery Information</p></li>
-              <li><a>My Account</a> <p>International Shopping</p></li>
-            </ul>
-          </div>
-
-          <div class="info__text--div--about">
-            <h4>ABOUT US</h4>
-            <P>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem veniam voluptatem distinctio accusantium itaque nulla quidem consequatur cupiditate commodi. Recusandae sit maxime quibusdam eaque eveniet provident cum illum perferendis rem?
-            </P>
-          </div>
-        </div>
-
-        <div class="info__footer">
-          <div class="info__footer--a">
-            <a>Develop Webshop - Responsive Transform Theme &copy2024</a>
-            <a class="info__footer--icons">
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-vimeo-v"></i>
-              <i class="fa-brands fa-tiktok"></i>
+          <h2>Follow us on our social networks</h2>
+          <span>
+            <a href="#">
               <i class="fa-brands fa-facebook-f"></i>
-              <i class="fa-brands fa-youtube"></i>
             </a>
-          </div>
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </span>
         </div>
       </section>
-
-
-
-
     </main>
-    
 
+    <footer class="footer">
+      <section class="footer__section">
+        <div class="footer__div--one">
+          <h2>Delicio</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            ipsum quisquam ea? Nisi, deserunt maxime? Enim, provident magnam
+            nihil ad, earum
+          </p>
+          <a href="#">
+            <i class="fa-solid fa-location-dot"></i>
+            location
+          </a>
+        </div>
+        <div class="footer__div--two">
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">shop</a></li>
+            <li><a href="#">bakery</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">checkout</a></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
 
-    <script src="https://kit.fontawesome.com/a0d58bd4c9.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a0d58bd4c9.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
